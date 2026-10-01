@@ -1,0 +1,85 @@
+{
+  "generatedAtMillis": 1790240346684,
+  "failureReasons": [
+    {
+      "reason": "Script failure: Test timeout of 30000ms exceeded.\n\nError: locator.textContent: Test timeout of 30000ms exceeded.",
+      "count": 5,
+      "testcases": [
+        {
+          "testcaseName": "› chromium › example.spec.js › Valid username and valid password",
+          "runFolder": "10-09-2026 16-01-37 Merv-Report",
+          "runTimestampMillis": 1789036373780.1653
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › Performance glitch user with valid password",
+          "runFolder": "11-09-2026 19-44-26 Merv-Report",
+          "runTimestampMillis": 1789136568871.4229
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › Problem user with valid password",
+          "runFolder": "11-09-2026 19-44-26 Merv-Report",
+          "runTimestampMillis": 1789136568871.4229
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › Visual user with valid password",
+          "runFolder": "11-09-2026 19-44-26 Merv-Report",
+          "runTimestampMillis": 1789136568871.4229
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › Error user with valid password",
+          "runFolder": "11-09-2026 19-44-26 Merv-Report",
+          "runTimestampMillis": 1789136568871.4229
+        }
+      ]
+    },
+    {
+      "reason": "After Hooks › Fixture \"context\" › Close context: Error: browserContext.close: Target page, context or browser has been closed\n\nError: locator.textContent: Target page, context or browser has been closed",
+      "count": 2,
+      "testcases": [
+        {
+          "testcaseName": "› chromium › example.spec.js › Login Test 2",
+          "runFolder": "10-09-2026 11-52-39 Merv-Report",
+          "runTimestampMillis": 1789021396287.2183
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › Login Test 1",
+          "runFolder": "10-09-2026 11-52-39 Merv-Report",
+          "runTimestampMillis": 1789021396287.2183
+        }
+      ]
+    },
+    {
+      "reason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n\n31 |   //expect(errorMsg).toBe(\"Epic sadface: Username is required\")\n  32 |   //validate message--- test case fail\n> 33 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\")\n     |                    ^\n  34 | });\n  35 |\n  36 |",
+      "count": 1,
+      "testcases": [
+        {
+          "testcaseName": "› chromium › example.spec.js › demo",
+          "runFolder": "10-09-2026 12-08-40 Merv-Report",
+          "runTimestampMillis": 1789022332831.0354
+        }
+      ]
+    },
+    {
+      "reason": "Before Hooks › Fixture \"browser\" › Launch browser: Error: browserType.launch: Host system is missing dependencies!\n\nFull list of missing libraries:\n    msvcp140_1.dll",
+      "count": 1,
+      "testcases": [
+        {
+          "testcaseName": "› firefox › example.spec.js › test",
+          "runFolder": "31-08-2026 20-21-55 Merv-Report",
+          "runTimestampMillis": 1788188052853.9275
+        }
+      ]
+    },
+    {
+      "reason": "Test timeout of 30000ms exceeded.\n\nError: locator.fill: Test ended.",
+      "count": 1,
+      "testcases": [
+        {
+          "testcaseName": "› webkit › example.spec.js › test",
+          "runFolder": "31-08-2026 20-21-55 Merv-Report",
+          "runTimestampMillis": 1788188052853.9275
+        }
+      ]
+    }
+  ]
+}

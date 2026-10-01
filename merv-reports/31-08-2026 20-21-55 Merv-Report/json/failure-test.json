@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "exportDate": "Mon Aug 31 2026 20:24:12 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 2,
+  "failures": [
+    {
+      "testcaseName": "› firefox › example.spec.js › test",
+      "status": "FAILED",
+      "failureReason": "Before Hooks › Fixture \"browser\" › Launch browser: Error: browserType.launch: Host system is missing dependencies!\n\nFull list of missing libraries:\n    msvcp140_1.dll",
+      "tags": [
+        "firefox"
+      ],
+      "startTime": "2026-08-31T14:51:58.660Z",
+      "endTime": "2026-08-31T14:51:58.763Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› webkit › example.spec.js › test",
+      "status": "FAILED",
+      "failureReason": "Test timeout of 30000ms exceeded.\n\nError: locator.fill: Test ended.\nCall log:\n  - waiting for locator('[data-test=\"username\"]')\n\n    at Proxy.fill (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:241:28)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:9:48\n\n7 |   await page.locator('[data-test=\"login-credentials\"]').click();\n   8 |   await page.locator('[data-test=\"username\"]').click();\n>  9 |   await page.locator('[data-test=\"username\"]').fill('standard_user');\n     |                                                ^\n  10 |   await page.locator('[data-test=\"password\"]').click();\n  11 |   await page.locator('[data-test=\"password\"]').fill('secret_sauce');\n  12 |   await page.locator('[data-test=\"login-button\"]').click();",
+      "tags": [
+        "webkit"
+      ],
+      "startTime": "2026-08-31T14:52:15.203Z",
+      "endTime": "2026-08-31T14:53:38.774Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    }
+  ]
+}

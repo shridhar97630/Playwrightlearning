@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "exportDate": "Thu Sep 24 2026 14:11:19 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 1,
+  "failures": [
+    {
+      "testcaseName": "› chromium › inventory.spec.js › Verify inventory page",
+      "status": "FAILED",
+      "failureReason": "Expect \"toHaveURL\": Error: expect(page).toHaveURL(expected) failed\n\nExpected pattern: /inventory/\nReceived string:  \"https://www.saucedemo.com/\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"toHaveURL\" with timeout 5000ms\n    13 × locator resolved to <html lang=\"en\">…</html>\n       - unexpected value \"https://www.saucedemo.com/\"\n\n    at Proxy.toHaveURL (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\inventory.spec.js:7:22\n\n5 |   await page.goto('https://www.saucedemo.com/inventory.html');\n  6 |\n> 7 |   await expect(page).toHaveURL(/inventory/);\n    |                      ^\n  8 |\n  9 | });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-24T08:40:59.060Z",
+      "endTime": "2026-09-24T08:41:11.002Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    }
+  ]
+}

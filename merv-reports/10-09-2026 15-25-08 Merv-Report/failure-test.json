@@ -1,0 +1,333 @@
+{
+  "version": "1.0",
+  "exportDate": "Thu Sep 10 2026 15:29:47 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 27,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › Valid username and valid password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:55:11.221Z",
+      "endTime": "2026-09-10T09:55:20.242Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Empty username and empty password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:55:11.315Z",
+      "endTime": "2026-09-10T09:55:20.234Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Valid username and empty password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:55:33.275Z",
+      "endTime": "2026-09-10T09:55:38.888Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Empty username and valid password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:55:33.409Z",
+      "endTime": "2026-09-10T09:55:38.649Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Valid username and invalid password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:55:51.229Z",
+      "endTime": "2026-09-10T09:55:56.587Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Invalid username and valid password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:55:51.252Z",
+      "endTime": "2026-09-10T09:55:56.345Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Locked user with valid password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:56:11.634Z",
+      "endTime": "2026-09-10T09:56:15.777Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Invalid username and invalid password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:56:11.657Z",
+      "endTime": "2026-09-10T09:56:18.789Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Performance glitch user with valid password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:56:31.474Z",
+      "endTime": "2026-09-10T09:56:38.201Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Problem user with valid password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:56:31.500Z",
+      "endTime": "2026-09-10T09:56:37.909Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Visual user with valid password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:56:50.833Z",
+      "endTime": "2026-09-10T09:56:56.729Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Error user with valid password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:56:50.843Z",
+      "endTime": "2026-09-10T09:56:56.586Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Username with leading spaces",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:57:10.083Z",
+      "endTime": "2026-09-10T09:57:16.725Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Username with trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:57:10.284Z",
+      "endTime": "2026-09-10T09:57:16.836Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Username with leading and trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:57:29.634Z",
+      "endTime": "2026-09-10T09:57:35.888Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Password with leading spaces",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:57:29.670Z",
+      "endTime": "2026-09-10T09:57:35.067Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Password with trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:57:51.308Z",
+      "endTime": "2026-09-10T09:57:58.240Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Password with uppercase characters",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:57:51.338Z",
+      "endTime": "2026-09-10T09:57:59.637Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Username with special characters",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:58:13.726Z",
+      "endTime": "2026-09-10T09:58:19.713Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Username with uppercase characters",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:58:13.813Z",
+      "endTime": "2026-09-10T09:58:18.964Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Password with special characters",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:58:35.466Z",
+      "endTime": "2026-09-10T09:58:41.408Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Numeric username",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:58:35.493Z",
+      "endTime": "2026-09-10T09:58:41.801Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Numeric password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:58:56.224Z",
+      "endTime": "2026-09-10T09:59:02.744Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Username containing underscore variation",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:58:56.324Z",
+      "endTime": "2026-09-10T09:59:02.694Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Password missing underscore",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:59:16.710Z",
+      "endTime": "2026-09-10T09:59:22.765Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Very short username",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:59:16.790Z",
+      "endTime": "2026-09-10T09:59:22.274Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Very short password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"expectedErrorMsg\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:20:20)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:5\n\n18 | async function validateErrorMsg(page,expectedErrorMsg){\n  19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 20 |   expect(errorMsg).toBe(\"expectedErrorMsg\")\n     |                    ^\n  21 | }\n  22 |\n  23 | for (let data of testdata){",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T09:59:37.095Z",
+      "endTime": "2026-09-10T09:59:41.854Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    }
+  ]
+}

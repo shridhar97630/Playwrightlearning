@@ -1,0 +1,127 @@
+{
+  "version": "1.0",
+  "exportDate": "Fri Sep 11 2026 20:39:19 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 10,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › Empty username and valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: _login_page.LoginPage is not a constructor\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:20\n\n24 | for (let data of testdata){\n  25 |   test(data.testname, async({page})=>{\n> 26 |     let lgObject = new LoginPage(page);\n     |                    ^\n  27 |     await lgObject.login(page, data.username, data.password);\n  28 |     await lgObject.validateErrorMsg(page, data.errorMsg)\n  29 | });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T15:07:58.172Z",
+      "endTime": "2026-09-11T15:08:02.152Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Empty username and empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: _login_page.LoginPage is not a constructor\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:20\n\n24 | for (let data of testdata){\n  25 |   test(data.testname, async({page})=>{\n> 26 |     let lgObject = new LoginPage(page);\n     |                    ^\n  27 |     await lgObject.login(page, data.username, data.password);\n  28 |     await lgObject.validateErrorMsg(page, data.errorMsg)\n  29 | });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T15:07:58.259Z",
+      "endTime": "2026-09-11T15:08:03.696Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Valid username and empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: _login_page.LoginPage is not a constructor\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:20\n\n24 | for (let data of testdata){\n  25 |   test(data.testname, async({page})=>{\n> 26 |     let lgObject = new LoginPage(page);\n     |                    ^\n  27 |     await lgObject.login(page, data.username, data.password);\n  28 |     await lgObject.validateErrorMsg(page, data.errorMsg)\n  29 | });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T15:08:15.104Z",
+      "endTime": "2026-09-11T15:08:22.771Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Invalid username and valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: _login_page.LoginPage is not a constructor\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:20\n\n24 | for (let data of testdata){\n  25 |   test(data.testname, async({page})=>{\n> 26 |     let lgObject = new LoginPage(page);\n     |                    ^\n  27 |     await lgObject.login(page, data.username, data.password);\n  28 |     await lgObject.validateErrorMsg(page, data.errorMsg)\n  29 | });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T15:08:15.168Z",
+      "endTime": "2026-09-11T15:08:21.660Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Invalid username and invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: _login_page.LoginPage is not a constructor\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:20\n\n24 | for (let data of testdata){\n  25 |   test(data.testname, async({page})=>{\n> 26 |     let lgObject = new LoginPage(page);\n     |                    ^\n  27 |     await lgObject.login(page, data.username, data.password);\n  28 |     await lgObject.validateErrorMsg(page, data.errorMsg)\n  29 | });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T15:08:35.603Z",
+      "endTime": "2026-09-11T15:08:38.673Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Valid username and invalid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: _login_page.LoginPage is not a constructor\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:20\n\n24 | for (let data of testdata){\n  25 |   test(data.testname, async({page})=>{\n> 26 |     let lgObject = new LoginPage(page);\n     |                    ^\n  27 |     await lgObject.login(page, data.username, data.password);\n  28 |     await lgObject.validateErrorMsg(page, data.errorMsg)\n  29 | });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T15:08:35.638Z",
+      "endTime": "2026-09-11T15:08:38.537Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Username with leading spaces",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: _login_page.LoginPage is not a constructor\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:20\n\n24 | for (let data of testdata){\n  25 |   test(data.testname, async({page})=>{\n> 26 |     let lgObject = new LoginPage(page);\n     |                    ^\n  27 |     await lgObject.login(page, data.username, data.password);\n  28 |     await lgObject.validateErrorMsg(page, data.errorMsg)\n  29 | });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T15:08:51.162Z",
+      "endTime": "2026-09-11T15:08:57.131Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Locked user with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: _login_page.LoginPage is not a constructor\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:20\n\n24 | for (let data of testdata){\n  25 |   test(data.testname, async({page})=>{\n> 26 |     let lgObject = new LoginPage(page);\n     |                    ^\n  27 |     await lgObject.login(page, data.username, data.password);\n  28 |     await lgObject.validateErrorMsg(page, data.errorMsg)\n  29 | });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T15:08:51.310Z",
+      "endTime": "2026-09-11T15:08:55.121Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Username with trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Before Hooks: Test timeout of 30000ms exceeded while running \"beforeEach\" hook.\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:5:6\n\n3 | import {LoginPage} from '../pages/login_page.js';\n  4 |\n> 5 | test.beforeEach(async({page})=>{\n    |      ^\n  6 |   await page.goto('https://www.saucedemo.com/');\n  7 | })\n  8 |\n\nBefore Hooks › beforeEach hook: Test timeout of 30000ms exceeded while running \"beforeEach\" hook.\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:5:6\n\n3 | import {LoginPage} from '../pages/login_page.js';\n  4 |\n> 5 | test.beforeEach(async({page})=>{\n    |      ^\n  6 |   await page.goto('https://www.saucedemo.com/');\n  7 | })\n  8 |\n\nBefore Hooks › beforeEach hook › Fixture \"page\": Test timeout of 30000ms exceeded while running \"beforeEach\" hook.\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:5:6\n\n3 | import {LoginPage} from '../pages/login_page.js';\n  4 |\n> 5 | test.beforeEach(async({page})=>{\n    |      ^\n  6 |   await page.goto('https://www.saucedemo.com/');\n  7 | })\n  8 |\n\nBefore Hooks › beforeEach hook › Fixture \"page\" › Create page: Error: browserContext.newPage: Target page, context or browser has been closed",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T15:09:11.168Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Username with leading and trailing spaces",
+      "status": "FAILED",
+      "failureReason": "Before Hooks: Fixture \"browser\" timeout of 0ms exceeded during setup.\n\nBefore Hooks › beforeEach hook: Fixture \"browser\" timeout of 0ms exceeded during setup.\n\nBefore Hooks › beforeEach hook › Fixture \"browser\": Fixture \"browser\" timeout of 0ms exceeded during setup.",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T15:09:11.426Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    }
+  ]
+}

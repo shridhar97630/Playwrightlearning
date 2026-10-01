@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "exportDate": "Thu Sep 10 2026 16:02:53 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": true,
+  "failureCount": 1,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › Valid username and valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: Test timeout of 30000ms exceeded.\n\nError: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"error\"]')\n\n    at Proxy.textContent (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:254:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:19:60)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:11\n\n17 | // Validate message \n  18 | async function validateErrorMsg(page,expectedErrorMsg){\n> 19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n     |                                                            ^\n  20 |   expect(errorMsg).toBe(expectedErrorMsg)\n  21 | }\n  22 |",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T10:31:40.223Z",
+      "endTime": "2026-09-10T10:32:18.791Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    }
+  ]
+}

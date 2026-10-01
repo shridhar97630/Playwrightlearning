@@ -1,0 +1,924 @@
+{
+  "version": 3,
+  "sourceFile": "inputdemo.js",
+  "sourceText": "import PromptSync from \"prompt-sync\"\r\nlet prompt = PromptSync();\r\n\r\nlet a = prompt(\"Enter your number: \");\r\nconsole.log(\"You selected : \" + a);",
+  "sourceLines": [
+    "import PromptSync from \"prompt-sync\"",
+    "let prompt = PromptSync();",
+    "",
+    "let a = prompt(\"Enter your number: \");",
+    "console.log(\"You selected : \" + a);"
+  ],
+  "codeLines": [
+    {
+      "sourceLine": 1,
+      "text": "import PromptSync from \"prompt-sync\""
+    },
+    {
+      "sourceLine": 2,
+      "text": "let prompt = PromptSync();"
+    },
+    {
+      "sourceLine": 4,
+      "text": "let a = prompt(\"Enter your number: \");"
+    },
+    {
+      "sourceLine": 5,
+      "text": "console.log(\"You selected : \" + a);"
+    }
+  ],
+  "files": [
+    {
+      "id": "inputdemo.js",
+      "name": "inputdemo.js",
+      "sourceText": "import PromptSync from \"prompt-sync\"\r\nlet prompt = PromptSync();\r\n\r\nlet a = prompt(\"Enter your number: \");\r\nconsole.log(\"You selected : \" + a);",
+      "sourceLines": [
+        "import PromptSync from \"prompt-sync\"",
+        "let prompt = PromptSync();",
+        "",
+        "let a = prompt(\"Enter your number: \");",
+        "console.log(\"You selected : \" + a);"
+      ],
+      "codeLines": [
+        {
+          "sourceLine": 1,
+          "text": "import PromptSync from \"prompt-sync\""
+        },
+        {
+          "sourceLine": 2,
+          "text": "let prompt = PromptSync();"
+        },
+        {
+          "sourceLine": 4,
+          "text": "let a = prompt(\"Enter your number: \");"
+        },
+        {
+          "sourceLine": 5,
+          "text": "console.log(\"You selected : \" + a);"
+        }
+      ],
+      "executedAt": "2026-08-28T08:25:22.187Z",
+      "complexity": {
+        "time": "O(1)",
+        "space": "O(1)",
+        "maxLoopDepth": 0,
+        "growsCollection": false,
+        "recursive": false
+      }
+    },
+    {
+      "id": "add_Function.js",
+      "name": "add_Function.js",
+      "sourceText": "// Addition of two numbers\r\nimport PromptSync from \"prompt-sync\"\r\nlet prompt = PromptSync();\r\n// function add(x, y) {\r\n\r\n//   return x + y;\r\n\r\n// }\r\n\r\n\r\n// let a = prompt(\"Enter your number: \");\r\n\r\n// let b = prompt(\"Enter your number: \");\r\n\r\n// let c = add(+a, +b);\r\n\r\n// console.log('sum =', + c);\r\n\r\n//==================================================================\r\n// Substraction of two numbers\r\n\r\nfunction Substraction(x, y){\r\n    return x - y;\r\n}\r\n\r\nlet a = prompt(\"Enter your number : \");\r\n\r\nlet b = prompt(\"Enter your number : \");\r\n\r\nlet c = Substraction(a, b);\r\n\r\nconsole.log('SUB =' + c)\r\n",
+      "sourceLines": [
+        "// Addition of two numbers",
+        "import PromptSync from \"prompt-sync\"",
+        "let prompt = PromptSync();",
+        "// function add(x, y) {",
+        "",
+        "//   return x + y;",
+        "",
+        "// }",
+        "",
+        "",
+        "// let a = prompt(\"Enter your number: \");",
+        "",
+        "// let b = prompt(\"Enter your number: \");",
+        "",
+        "// let c = add(+a, +b);",
+        "",
+        "// console.log('sum =', + c);",
+        "",
+        "//==================================================================",
+        "// Substraction of two numbers",
+        "",
+        "function Substraction(x, y){",
+        "    return x - y;",
+        "}",
+        "",
+        "let a = prompt(\"Enter your number : \");",
+        "",
+        "let b = prompt(\"Enter your number : \");",
+        "",
+        "let c = Substraction(a, b);",
+        "",
+        "console.log('SUB =' + c)",
+        ""
+      ],
+      "codeLines": [
+        {
+          "sourceLine": 2,
+          "text": "import PromptSync from \"prompt-sync\""
+        },
+        {
+          "sourceLine": 3,
+          "text": "let prompt = PromptSync();"
+        },
+        {
+          "sourceLine": 22,
+          "text": "function Substraction(x, y){"
+        },
+        {
+          "sourceLine": 23,
+          "text": "    return x - y;"
+        },
+        {
+          "sourceLine": 24,
+          "text": "}"
+        },
+        {
+          "sourceLine": 26,
+          "text": "let a = prompt(\"Enter your number : \");"
+        },
+        {
+          "sourceLine": 28,
+          "text": "let b = prompt(\"Enter your number : \");"
+        },
+        {
+          "sourceLine": 30,
+          "text": "let c = Substraction(a, b);"
+        },
+        {
+          "sourceLine": 32,
+          "text": "console.log('SUB =' + c)"
+        }
+      ],
+      "executedAt": "2026-08-28T08:52:45.213Z",
+      "complexity": {
+        "time": "O(1)",
+        "space": "O(1)",
+        "maxLoopDepth": 0,
+        "growsCollection": false,
+        "recursive": false
+      }
+    },
+    {
+      "id": "javascript/inputdemo.js",
+      "name": "javascript/inputdemo.js",
+      "sourceText": "const PromptSync = require(\"prompt-sync\");\r\n\r\nlet prompt = PromptSync();\r\n\r\nlet a = prompt(\"Enter your number: \");\r\n\r\nconsole.log(\"Your number is:\", a);",
+      "sourceLines": [
+        "const PromptSync = require(\"prompt-sync\");",
+        "",
+        "let prompt = PromptSync();",
+        "",
+        "let a = prompt(\"Enter your number: \");",
+        "",
+        "console.log(\"Your number is:\", a);"
+      ],
+      "codeLines": [
+        {
+          "sourceLine": 1,
+          "text": "const PromptSync = require(\"prompt-sync\");"
+        },
+        {
+          "sourceLine": 3,
+          "text": "let prompt = PromptSync();"
+        },
+        {
+          "sourceLine": 5,
+          "text": "let a = prompt(\"Enter your number: \");"
+        },
+        {
+          "sourceLine": 7,
+          "text": "console.log(\"Your number is:\", a);"
+        }
+      ],
+      "executedAt": "2026-08-31T09:49:15.181Z",
+      "complexity": {
+        "time": "O(1)",
+        "space": "O(1)",
+        "maxLoopDepth": 0,
+        "growsCollection": false,
+        "recursive": false
+      }
+    },
+    {
+      "id": "javascript/add_Function.js",
+      "name": "javascript/add_Function.js",
+      "sourceText": "// Addition of two numbers\r\n//  const PromptSync = require(\"prompt-sync\");\r\n//  let prompt = PromptSync();\r\n// function add(x, y) {\r\n\r\n//   return x + y;\r\n\r\n// }\r\n\r\n\r\n// let a = prompt(\"Enter your number: \");\r\n\r\n// let b = prompt(\"Enter your number: \");\r\n\r\n// let c = add(+a, +b);\r\n\r\n// console.log('sum =', + c);\r\n\r\n//==================================================================\r\n// Substraction of two numbers\r\n// const PromptSync = require(\"prompt-sync\");\r\n// let prompt = PromptSync();\r\n// function Substraction(x, y){\r\n//     return x - y;\r\n// }\r\n\r\n// let a = prompt(\"Enter your number : \");\r\n\r\n// let b = prompt(\"Enter your number : \");\r\n\r\n// let c = Substraction(a, b);\r\n\r\n// console.log('SUB =' + c)\r\n\r\n//=============================================================\r\n// Multiplication\r\n// const PromptSync = require(\"prompt-sync\");\r\n// let prompt = PromptSync();\r\n// function Multiplication(x, y) {\r\n\r\n//   return x * y;\r\n\r\n// }\r\n\r\n\r\n// let a = prompt(\"Enter your number: \");\r\n\r\n// let b = prompt(\"Enter your number: \");\r\n\r\n// let c = Multiplication(a, b);\r\n\r\n// console.log('mul =', + c);\r\n\r\n//================================================================\r\n// Division\r\n// const PromptSync = require(\"prompt-sync\");\r\n// let prompt = PromptSync();\r\n// function Division(x, y) {\r\n\r\n//   return x / y;\r\n\r\n// }\r\n\r\n\r\n// let a = prompt(\"Enter your number: \");\r\n\r\n// let b = prompt(\"Enter your number: \");\r\n\r\n// let c = Division(a, b);\r\n\r\n// console.log('div =', + c);\r\n\r\n//================================================================\r\n// Area of circle\r\n// const PromptSync = require(\"prompt-sync\");\r\n// let prompt = PromptSync();\r\n\r\n// function areaOfCircle(r) {\r\n//     return Math.PI * r * r;\r\n// }\r\n\r\n// let r = prompt(\"Enter Radius r: \");\r\n\r\n// console.log('Area of Circle = ' + areaOfCircle(r));\r\n\r\n//================================================================\r\n// Area of Rectangle\r\n\r\n// const PromptSync = require(\"prompt-sync\");\r\n// let prompt = PromptSync();\r\n\r\n// function areaOfRectangle(length, width) {\r\n//     return length * width;\r\n// }\r\n\r\n// let length = prompt(\"Enter Length l: \");\r\n\r\n// let width = prompt(\"Enter Width w: \");\r\n\r\n// console.log('Area of Rectangle = ' + areaOfRectangle(length, width));\r\n\r\n//===================================================================\r\n//Simple Interest\r\n\r\nconst PromptSync = require(\"prompt-sync\");\r\nlet prompt = PromptSync();\r\n\r\nfunction simpleInterest(P, R, Y) {\r\n    return (P * R * Y) / 100;\r\n}\r\nlet P = prompt(\"Enter Principle P: \");\r\n\r\nlet R = prompt(\"Enter Rate R: \");\r\n\r\nlet Y = prompt(\"Enter Year Y: \");\r\n\r\nconsole.log('Simple Interest = ' + simpleInterest(P, R, Y));\r\n",
+      "sourceLines": [
+        "// Addition of two numbers",
+        "//  const PromptSync = require(\"prompt-sync\");",
+        "//  let prompt = PromptSync();",
+        "// function add(x, y) {",
+        "",
+        "//   return x + y;",
+        "",
+        "// }",
+        "",
+        "",
+        "// let a = prompt(\"Enter your number: \");",
+        "",
+        "// let b = prompt(\"Enter your number: \");",
+        "",
+        "// let c = add(+a, +b);",
+        "",
+        "// console.log('sum =', + c);",
+        "",
+        "//==================================================================",
+        "// Substraction of two numbers",
+        "// const PromptSync = require(\"prompt-sync\");",
+        "// let prompt = PromptSync();",
+        "// function Substraction(x, y){",
+        "//     return x - y;",
+        "// }",
+        "",
+        "// let a = prompt(\"Enter your number : \");",
+        "",
+        "// let b = prompt(\"Enter your number : \");",
+        "",
+        "// let c = Substraction(a, b);",
+        "",
+        "// console.log('SUB =' + c)",
+        "",
+        "//=============================================================",
+        "// Multiplication",
+        "// const PromptSync = require(\"prompt-sync\");",
+        "// let prompt = PromptSync();",
+        "// function Multiplication(x, y) {",
+        "",
+        "//   return x * y;",
+        "",
+        "// }",
+        "",
+        "",
+        "// let a = prompt(\"Enter your number: \");",
+        "",
+        "// let b = prompt(\"Enter your number: \");",
+        "",
+        "// let c = Multiplication(a, b);",
+        "",
+        "// console.log('mul =', + c);",
+        "",
+        "//================================================================",
+        "// Division",
+        "// const PromptSync = require(\"prompt-sync\");",
+        "// let prompt = PromptSync();",
+        "// function Division(x, y) {",
+        "",
+        "//   return x / y;",
+        "",
+        "// }",
+        "",
+        "",
+        "// let a = prompt(\"Enter your number: \");",
+        "",
+        "// let b = prompt(\"Enter your number: \");",
+        "",
+        "// let c = Division(a, b);",
+        "",
+        "// console.log('div =', + c);",
+        "",
+        "//================================================================",
+        "// Area of circle",
+        "// const PromptSync = require(\"prompt-sync\");",
+        "// let prompt = PromptSync();",
+        "",
+        "// function areaOfCircle(r) {",
+        "//     return Math.PI * r * r;",
+        "// }",
+        "",
+        "// let r = prompt(\"Enter Radius r: \");",
+        "",
+        "// console.log('Area of Circle = ' + areaOfCircle(r));",
+        "",
+        "//================================================================",
+        "// Area of Rectangle",
+        "",
+        "// const PromptSync = require(\"prompt-sync\");",
+        "// let prompt = PromptSync();",
+        "",
+        "// function areaOfRectangle(length, width) {",
+        "//     return length * width;",
+        "// }",
+        "",
+        "// let length = prompt(\"Enter Length l: \");",
+        "",
+        "// let width = prompt(\"Enter Width w: \");",
+        "",
+        "// console.log('Area of Rectangle = ' + areaOfRectangle(length, width));",
+        "",
+        "//===================================================================",
+        "//Simple Interest",
+        "",
+        "const PromptSync = require(\"prompt-sync\");",
+        "let prompt = PromptSync();",
+        "",
+        "function simpleInterest(P, R, Y) {",
+        "    return (P * R * Y) / 100;",
+        "}",
+        "let P = prompt(\"Enter Principle P: \");",
+        "",
+        "let R = prompt(\"Enter Rate R: \");",
+        "",
+        "let Y = prompt(\"Enter Year Y: \");",
+        "",
+        "console.log('Simple Interest = ' + simpleInterest(P, R, Y));",
+        ""
+      ],
+      "codeLines": [
+        {
+          "sourceLine": 105,
+          "text": "const PromptSync = require(\"prompt-sync\");"
+        },
+        {
+          "sourceLine": 106,
+          "text": "let prompt = PromptSync();"
+        },
+        {
+          "sourceLine": 108,
+          "text": "function simpleInterest(P, R, Y) {"
+        },
+        {
+          "sourceLine": 109,
+          "text": "    return (P * R * Y) / 100;"
+        },
+        {
+          "sourceLine": 110,
+          "text": "}"
+        },
+        {
+          "sourceLine": 111,
+          "text": "let P = prompt(\"Enter Principle P: \");"
+        },
+        {
+          "sourceLine": 113,
+          "text": "let R = prompt(\"Enter Rate R: \");"
+        },
+        {
+          "sourceLine": 115,
+          "text": "let Y = prompt(\"Enter Year Y: \");"
+        },
+        {
+          "sourceLine": 117,
+          "text": "console.log('Simple Interest = ' + simpleInterest(P, R, Y));"
+        }
+      ],
+      "executedAt": "2026-09-02T02:24:29.905Z",
+      "complexity": {
+        "time": "O(1)",
+        "space": "O(1)",
+        "maxLoopDepth": 0,
+        "growsCollection": false,
+        "recursive": false
+      }
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "line": 0,
+      "kind": "start",
+      "label": "Execution started",
+      "vars": {},
+      "consoleLines": [],
+      "fileId": "inputdemo.js"
+    },
+    {
+      "index": 1,
+      "line": 0,
+      "kind": "call",
+      "label": "PromptSync(…) → \"[Function prompt]\"",
+      "vars": {},
+      "consoleLines": [],
+      "fileId": "inputdemo.js"
+    },
+    {
+      "index": 2,
+      "line": 2,
+      "kind": "var",
+      "label": "prompt",
+      "vars": {
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "inputdemo.js"
+    },
+    {
+      "index": 3,
+      "line": 0,
+      "kind": "call",
+      "label": "prompt(…) → \"20\"",
+      "vars": {
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "inputdemo.js"
+    },
+    {
+      "index": 4,
+      "line": 4,
+      "kind": "var",
+      "label": "a",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "20"
+      },
+      "consoleLines": [],
+      "fileId": "inputdemo.js"
+    },
+    {
+      "index": 5,
+      "line": 5,
+      "kind": "console",
+      "label": "console.log: You selected : 20",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "20"
+      },
+      "consoleLines": [
+        "You selected : 20"
+      ],
+      "fileId": "inputdemo.js"
+    },
+    {
+      "index": 6,
+      "line": 0,
+      "kind": "end",
+      "label": "Execution completed",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "20"
+      },
+      "consoleLines": [
+        "You selected : 20"
+      ],
+      "fileId": "inputdemo.js"
+    },
+    {
+      "index": 7,
+      "line": 0,
+      "kind": "start",
+      "label": "Execution started",
+      "vars": {},
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 8,
+      "line": 0,
+      "kind": "call",
+      "label": "PromptSync(…) → \"[Function prompt]\"",
+      "vars": {},
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 9,
+      "line": 3,
+      "kind": "var",
+      "label": "prompt",
+      "vars": {
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 10,
+      "line": 22,
+      "kind": "msg",
+      "label": "function Substraction defined",
+      "vars": {
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 11,
+      "line": 0,
+      "kind": "call",
+      "label": "prompt(…) → \"200\"",
+      "vars": {
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 12,
+      "line": 26,
+      "kind": "var",
+      "label": "a",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "200"
+      },
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 13,
+      "line": 0,
+      "kind": "call",
+      "label": "prompt(…) → \"155\"",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "200"
+      },
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 14,
+      "line": 28,
+      "kind": "var",
+      "label": "b",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "200",
+        "b": "155"
+      },
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 15,
+      "line": 22,
+      "kind": "msg",
+      "label": "⟶ enter function Substraction",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "200",
+        "b": "155"
+      },
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 16,
+      "line": 0,
+      "kind": "call",
+      "label": "Substraction(…) → 45",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "200",
+        "b": "155"
+      },
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 17,
+      "line": 30,
+      "kind": "var",
+      "label": "c",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "200",
+        "b": "155",
+        "c": 45
+      },
+      "consoleLines": [],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 18,
+      "line": 32,
+      "kind": "console",
+      "label": "console.log: SUB =45",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "200",
+        "b": "155",
+        "c": 45
+      },
+      "consoleLines": [
+        "SUB =45"
+      ],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 19,
+      "line": 0,
+      "kind": "end",
+      "label": "Execution completed",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "200",
+        "b": "155",
+        "c": 45
+      },
+      "consoleLines": [
+        "SUB =45"
+      ],
+      "fileId": "add_Function.js"
+    },
+    {
+      "index": 20,
+      "line": 0,
+      "kind": "start",
+      "label": "Execution started",
+      "vars": {},
+      "consoleLines": [],
+      "fileId": "javascript/inputdemo.js"
+    },
+    {
+      "index": 21,
+      "line": 1,
+      "kind": "var",
+      "label": "PromptSync",
+      "vars": {
+        "PromptSync": "[Function create]"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/inputdemo.js"
+    },
+    {
+      "index": 22,
+      "line": 0,
+      "kind": "call",
+      "label": "PromptSync(…) → \"[Function prompt]\"",
+      "vars": {
+        "PromptSync": "[Function create]"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/inputdemo.js"
+    },
+    {
+      "index": 23,
+      "line": 3,
+      "kind": "var",
+      "label": "prompt",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/inputdemo.js"
+    },
+    {
+      "index": 24,
+      "line": 0,
+      "kind": "call",
+      "label": "prompt(…) → \"50\"",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/inputdemo.js"
+    },
+    {
+      "index": 25,
+      "line": 5,
+      "kind": "var",
+      "label": "a",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "a": "50"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/inputdemo.js"
+    },
+    {
+      "index": 26,
+      "line": 7,
+      "kind": "console",
+      "label": "console.log: Your number is: 50",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "a": "50"
+      },
+      "consoleLines": [
+        "Your number is: 50"
+      ],
+      "fileId": "javascript/inputdemo.js"
+    },
+    {
+      "index": 27,
+      "line": 0,
+      "kind": "end",
+      "label": "Execution completed",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "a": "50"
+      },
+      "consoleLines": [
+        "Your number is: 50"
+      ],
+      "fileId": "javascript/inputdemo.js"
+    },
+    {
+      "index": 28,
+      "line": 0,
+      "kind": "start",
+      "label": "Execution started",
+      "vars": {},
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 29,
+      "line": 105,
+      "kind": "var",
+      "label": "PromptSync",
+      "vars": {
+        "PromptSync": "[Function create]"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 30,
+      "line": 0,
+      "kind": "call",
+      "label": "PromptSync(…) → \"[Function prompt]\"",
+      "vars": {
+        "PromptSync": "[Function create]"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 31,
+      "line": 106,
+      "kind": "var",
+      "label": "prompt",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 32,
+      "line": 108,
+      "kind": "msg",
+      "label": "function simpleInterest defined",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 33,
+      "line": 0,
+      "kind": "call",
+      "label": "prompt(…) → \"20000\"",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 34,
+      "line": 111,
+      "kind": "var",
+      "label": "P",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "P": "20000"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 35,
+      "line": 0,
+      "kind": "call",
+      "label": "prompt(…) → \"5\"",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "P": "20000"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 36,
+      "line": 113,
+      "kind": "var",
+      "label": "R",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "P": "20000",
+        "R": "5"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 37,
+      "line": 0,
+      "kind": "call",
+      "label": "prompt(…) → \"3\"",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "P": "20000",
+        "R": "5"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 38,
+      "line": 115,
+      "kind": "var",
+      "label": "Y",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "P": "20000",
+        "R": "5",
+        "Y": "3"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 39,
+      "line": 108,
+      "kind": "msg",
+      "label": "⟶ enter function simpleInterest",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "P": "20000",
+        "R": "5",
+        "Y": "3"
+      },
+      "consoleLines": [],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 40,
+      "line": 117,
+      "kind": "console",
+      "label": "console.log: Simple Interest = 3000",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "P": "20000",
+        "R": "5",
+        "Y": "3"
+      },
+      "consoleLines": [
+        "Simple Interest = 3000"
+      ],
+      "fileId": "javascript/add_Function.js"
+    },
+    {
+      "index": 41,
+      "line": 0,
+      "kind": "end",
+      "label": "Execution completed",
+      "vars": {
+        "PromptSync": "[Function create]",
+        "prompt": "[Function prompt]",
+        "P": "20000",
+        "R": "5",
+        "Y": "3"
+      },
+      "consoleLines": [
+        "Simple Interest = 3000"
+      ],
+      "fileId": "javascript/add_Function.js"
+    }
+  ],
+  "stats": {
+    "totalSteps": 42,
+    "totalIterations": 0,
+    "filesExecuted": 4,
+    "byFile": [
+      {
+        "fileId": "inputdemo.js",
+        "name": "inputdemo.js",
+        "steps": 7,
+        "iterations": 0
+      },
+      {
+        "fileId": "add_Function.js",
+        "name": "add_Function.js",
+        "steps": 13,
+        "iterations": 0
+      },
+      {
+        "fileId": "javascript/inputdemo.js",
+        "name": "javascript/inputdemo.js",
+        "steps": 8,
+        "iterations": 0
+      },
+      {
+        "fileId": "javascript/add_Function.js",
+        "name": "javascript/add_Function.js",
+        "steps": 14,
+        "iterations": 0
+      }
+    ]
+  },
+  "updatedAt": "2026-09-02T02:24:29.905Z"
+}

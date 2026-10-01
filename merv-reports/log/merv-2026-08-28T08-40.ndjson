@@ -1,0 +1,17 @@
+{"ts":"2026-08-28T08:41:46.944Z","level":"INFO","name":"Merv","msg":"<----- File add_Function.js ----->"}
+{"ts":"2026-08-28T08:41:46.950Z","level":"INFO","name":"Merv","msg":"--- execution ---"}
+{"ts":"2026-08-28T08:41:46.955Z","level":"INFO","name":"Merv","msg":"call PromptSync(…)"}
+{"ts":"2026-08-28T08:41:46.960Z","level":"INFO","name":"Merv","msg":"call PromptSync(…) → [Function prompt]"}
+{"ts":"2026-08-28T08:41:46.965Z","level":"INFO","name":"Merv","msg":"prompt = [Function prompt]"}
+{"ts":"2026-08-28T08:41:46.969Z","level":"INFO","name":"Merv","msg":"function add defined"}
+{"ts":"2026-08-28T08:41:46.973Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-08-28T08:41:58.520Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 15"}
+{"ts":"2026-08-28T08:41:58.525Z","level":"INFO","name":"Merv","msg":"a = 15"}
+{"ts":"2026-08-28T08:41:58.529Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-08-28T08:42:01.906Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 16"}
+{"ts":"2026-08-28T08:42:01.911Z","level":"INFO","name":"Merv","msg":"b = 16"}
+{"ts":"2026-08-28T08:42:01.915Z","level":"INFO","name":"Merv","msg":"call add(…)"}
+{"ts":"2026-08-28T08:42:01.919Z","level":"INFO","name":"Merv","msg":"⟶ enter function add"}
+{"ts":"2026-08-28T08:42:01.923Z","level":"INFO","name":"Merv","msg":"call add(…) → 31"}
+{"ts":"2026-08-28T08:42:01.928Z","level":"INFO","name":"Merv","msg":"c = 31"}
+{"ts":"2026-08-28T08:42:01.932Z","level":"INFO","name":"Merv","msg":"console.log: sum = 31"}

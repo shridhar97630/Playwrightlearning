@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1789033857880,
+  "exportDate": "Thu Sep 10 2026 15:20:57 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwrightlearning",
+    "startTime": "2026-09-10T09:50:57.544Z",
+    "endTime": "2026-09-10T09:50:57.880Z",
+    "testCases": []
+  }
+}

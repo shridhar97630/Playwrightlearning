@@ -1,0 +1,10 @@
+{"ts":"2026-08-31T09:13:15.249Z","level":"INFO","name":"Merv","msg":"<----- File javascript/inputdemo.js ----->"}
+{"ts":"2026-08-31T09:13:15.257Z","level":"INFO","name":"Merv","msg":"--- execution ---"}
+{"ts":"2026-08-31T09:13:15.353Z","level":"INFO","name":"Merv","msg":"PromptSync = [Function create]"}
+{"ts":"2026-08-31T09:13:15.369Z","level":"INFO","name":"Merv","msg":"call PromptSync(…)"}
+{"ts":"2026-08-31T09:13:15.380Z","level":"INFO","name":"Merv","msg":"call PromptSync(…) → [Function prompt]"}
+{"ts":"2026-08-31T09:13:15.388Z","level":"INFO","name":"Merv","msg":"prompt = [Function prompt]"}
+{"ts":"2026-08-31T09:13:15.392Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-08-31T09:14:40.532Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 25"}
+{"ts":"2026-08-31T09:14:40.537Z","level":"INFO","name":"Merv","msg":"a = 25"}
+{"ts":"2026-08-31T09:14:40.544Z","level":"INFO","name":"Merv","msg":"console.log: Your number is: 25"}

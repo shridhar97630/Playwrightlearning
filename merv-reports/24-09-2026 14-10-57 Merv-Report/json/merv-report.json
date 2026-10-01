@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1790239279687,
+  "exportDate": "Thu Sep 24 2026 14:11:19 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwrightlearning",
+    "startTime": "2026-09-24T08:40:57.277Z",
+    "endTime": "2026-09-24T08:41:19.687Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › inventory.spec.js › Verify inventory page",
+        "status": "FAILED",
+        "failureReason": "Expect \"toHaveURL\": Error: expect(page).toHaveURL(expected) failed\n\nExpected pattern: /inventory/\nReceived string:  \"https://www.saucedemo.com/\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"toHaveURL\" with timeout 5000ms\n    13 × locator resolved to <html lang=\"en\">…</html>\n       - unexpected value \"https://www.saucedemo.com/\"\n\n    at Proxy.toHaveURL (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\inventory.spec.js:7:22\n\n5 |   await page.goto('https://www.saucedemo.com/inventory.html');\n  6 |\n> 7 |   await expect(page).toHaveURL(/inventory/);\n    |                      ^\n  8 |\n  9 | });",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-24T08:40:59.060Z",
+        "endTime": "2026-09-24T08:41:11.002Z",
+        "executionMachine": "Shree",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-24T08:40:59.180Z",
+            "endTime": "2026-09-24T08:41:05.525Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-24T08:41:05.537Z",
+            "endTime": "2026-09-24T08:41:07.110Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-24T08:41:07.123Z",
+            "endTime": "2026-09-24T08:41:08.418Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/inventory.html\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-24T08:41:08.467Z",
+            "endTime": "2026-09-24T08:41:09.133Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/37e96d6df1999c5cdad2-e148b351bdf9fea723cc-step11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Expect \"toHaveURL\"",
+            "stepType": "EXPECT",
+            "status": "FAILED",
+            "startTime": "2026-09-24T08:41:09.787Z",
+            "endTime": "2026-09-24T08:41:14.847Z",
+            "errorMessage": "Error: expect(page).toHaveURL(expected) failed\n\nExpected pattern: /inventory/\nReceived string:  \"https://www.saucedemo.com/\"\nTimeout: 5000ms\n\nCall log:\n  - Expect \"toHaveURL\" with timeout 5000ms\n    13 × locator resolved to <html lang=\"en\">…</html>\n       - unexpected value \"https://www.saucedemo.com/\"\n\n    at Proxy.toHaveURL (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:384:26)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\inventory.spec.js:7:22\n\n5 |   await page.goto('https://www.saucedemo.com/inventory.html');\n  6 |\n> 7 |   await expect(page).toHaveURL(/inventory/);\n    |                      ^\n  8 |\n  9 | });",
+            "screenshots": [
+              "screenshots/37e96d6df1999c5cdad2-e148b351bdf9fea723cc-att0.png",
+              "screenshots/37e96d6df1999c5cdad2-e148b351bdf9fea723cc-step14-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-24T08:41:15.526Z",
+            "endTime": "2026-09-24T08:41:17.428Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ],
+        "videos": [
+          "videos/37e96d6df1999c5cdad2-e148b351bdf9fea723cc-video1.webm"
+        ]
+      }
+    ]
+  }
+}

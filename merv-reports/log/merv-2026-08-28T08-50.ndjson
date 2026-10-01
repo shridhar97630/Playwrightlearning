@@ -1,0 +1,17 @@
+{"ts":"2026-08-28T08:52:45.200Z","level":"INFO","name":"Merv","msg":"<----- File add_Function.js ----->"}
+{"ts":"2026-08-28T08:52:45.208Z","level":"INFO","name":"Merv","msg":"--- execution ---"}
+{"ts":"2026-08-28T08:52:45.214Z","level":"INFO","name":"Merv","msg":"call PromptSync(…)"}
+{"ts":"2026-08-28T08:52:45.218Z","level":"INFO","name":"Merv","msg":"call PromptSync(…) → [Function prompt]"}
+{"ts":"2026-08-28T08:52:45.224Z","level":"INFO","name":"Merv","msg":"prompt = [Function prompt]"}
+{"ts":"2026-08-28T08:52:45.229Z","level":"INFO","name":"Merv","msg":"function Substraction defined"}
+{"ts":"2026-08-28T08:52:45.233Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-08-28T08:52:54.273Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 200"}
+{"ts":"2026-08-28T08:52:54.279Z","level":"INFO","name":"Merv","msg":"a = 200"}
+{"ts":"2026-08-28T08:52:54.287Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-08-28T08:53:01.192Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 155"}
+{"ts":"2026-08-28T08:53:01.197Z","level":"INFO","name":"Merv","msg":"b = 155"}
+{"ts":"2026-08-28T08:53:01.203Z","level":"INFO","name":"Merv","msg":"call Substraction(…)"}
+{"ts":"2026-08-28T08:53:01.208Z","level":"INFO","name":"Merv","msg":"⟶ enter function Substraction"}
+{"ts":"2026-08-28T08:53:01.213Z","level":"INFO","name":"Merv","msg":"call Substraction(…) → 45"}
+{"ts":"2026-08-28T08:53:01.222Z","level":"INFO","name":"Merv","msg":"c = 45"}
+{"ts":"2026-08-28T08:53:01.227Z","level":"INFO","name":"Merv","msg":"console.log: SUB =45"}

@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "exportDate": "Thu Sep 10 2026 16:09:02 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 4,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › Problem user with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: Test timeout of 30000ms exceeded.\n\nError: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"error\"]')\n\n    at Proxy.textContent (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:254:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:19:60)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:11\n\n17 | // Validate message \n  18 | async function validateErrorMsg(page,expectedErrorMsg){\n> 19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n     |                                                            ^\n  20 |   expect(errorMsg).toBe(expectedErrorMsg)\n  21 | }\n  22 |",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T10:34:56.056Z",
+      "endTime": "2026-09-10T10:35:31.367Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Performance glitch user with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: Test timeout of 30000ms exceeded.\n\nError: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"error\"]')\n\n    at Proxy.textContent (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:254:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:19:60)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:11\n\n17 | // Validate message \n  18 | async function validateErrorMsg(page,expectedErrorMsg){\n> 19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n     |                                                            ^\n  20 |   expect(errorMsg).toBe(expectedErrorMsg)\n  21 | }\n  22 |",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T10:35:13.386Z",
+      "endTime": "2026-09-10T10:35:52.509Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Error user with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: Error: locator.textContent: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('[data-test=\"error\"]')\n\n    at Proxy.textContent (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:254:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:19:60)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:11\n\n17 | // Validate message \n  18 | async function validateErrorMsg(page,expectedErrorMsg){\n> 19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n     |                                                            ^\n  20 |   expect(errorMsg).toBe(expectedErrorMsg)\n  21 | }\n  22 |",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T10:35:36.053Z",
+      "endTime": "2026-09-10T10:35:44.511Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Visual user with valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: Error: locator.textContent: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('[data-test=\"error\"]')\n\n    at Proxy.textContent (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:254:26)\n    at validateErrorMsg (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:19:60)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:26:11\n\n17 | // Validate message \n  18 | async function validateErrorMsg(page,expectedErrorMsg){\n> 19 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n     |                                                            ^\n  20 |   expect(errorMsg).toBe(expectedErrorMsg)\n  21 | }\n  22 |",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T10:36:00.007Z",
+      "endTime": "2026-09-10T10:36:16.934Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    }
+  ]
+}

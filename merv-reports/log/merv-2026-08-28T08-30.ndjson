@@ -1,0 +1,10 @@
+{"ts":"2026-08-28T08:31:00.419Z","level":"INFO","name":"Merv","msg":"<----- File add_Function.js ----->"}
+{"ts":"2026-08-28T08:31:00.428Z","level":"INFO","name":"Merv","msg":"--- execution ---"}
+{"ts":"2026-08-28T08:31:00.570Z","level":"INFO","name":"Merv","msg":"function add defined"}
+{"ts":"2026-08-28T08:31:00.618Z","level":"INFO","name":"Merv","msg":"a = 10"}
+{"ts":"2026-08-28T08:31:00.633Z","level":"INFO","name":"Merv","msg":"b = 20"}
+{"ts":"2026-08-28T08:31:00.648Z","level":"INFO","name":"Merv","msg":"call add(…)"}
+{"ts":"2026-08-28T08:31:00.655Z","level":"INFO","name":"Merv","msg":"⟶ enter function add"}
+{"ts":"2026-08-28T08:31:00.660Z","level":"INFO","name":"Merv","msg":"call add(…) → 30"}
+{"ts":"2026-08-28T08:31:00.693Z","level":"INFO","name":"Merv","msg":"c = 30"}
+{"ts":"2026-08-28T08:31:00.721Z","level":"INFO","name":"Merv","msg":"console.log: sum = 30"}

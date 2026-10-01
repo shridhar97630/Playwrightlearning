@@ -1,0 +1,18 @@
+{"ts":"2026-09-02T02:24:29.890Z","level":"INFO","name":"Merv","msg":"<----- File javascript/add_Function.js ----->"}
+{"ts":"2026-09-02T02:24:29.898Z","level":"INFO","name":"Merv","msg":"--- execution ---"}
+{"ts":"2026-09-02T02:24:29.915Z","level":"INFO","name":"Merv","msg":"PromptSync = [Function create]"}
+{"ts":"2026-09-02T02:24:29.929Z","level":"INFO","name":"Merv","msg":"call PromptSync(…)"}
+{"ts":"2026-09-02T02:24:29.937Z","level":"INFO","name":"Merv","msg":"call PromptSync(…) → [Function prompt]"}
+{"ts":"2026-09-02T02:24:29.943Z","level":"INFO","name":"Merv","msg":"prompt = [Function prompt]"}
+{"ts":"2026-09-02T02:24:29.948Z","level":"INFO","name":"Merv","msg":"function simpleInterest defined"}
+{"ts":"2026-09-02T02:24:29.955Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-09-02T02:24:38.410Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 20000"}
+{"ts":"2026-09-02T02:24:38.417Z","level":"INFO","name":"Merv","msg":"P = 20000"}
+{"ts":"2026-09-02T02:24:38.425Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-09-02T02:24:41.317Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 5"}
+{"ts":"2026-09-02T02:24:41.323Z","level":"INFO","name":"Merv","msg":"R = 5"}
+{"ts":"2026-09-02T02:24:41.329Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-09-02T02:24:46.783Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 3"}
+{"ts":"2026-09-02T02:24:46.788Z","level":"INFO","name":"Merv","msg":"Y = 3"}
+{"ts":"2026-09-02T02:24:46.794Z","level":"INFO","name":"Merv","msg":"⟶ enter function simpleInterest"}
+{"ts":"2026-09-02T02:24:46.799Z","level":"INFO","name":"Merv","msg":"console.log: Simple Interest = 3000"}

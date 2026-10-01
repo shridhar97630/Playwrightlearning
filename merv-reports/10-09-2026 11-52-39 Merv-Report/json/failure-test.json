@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "exportDate": "Thu Sep 10 2026 11:53:16 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 2,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › Login Test 2",
+      "status": "FAILED",
+      "failureReason": "After Hooks › Fixture \"context\" › Close context: Error: browserContext.close: Target page, context or browser has been closed\n\nError: locator.textContent: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('data-test=\"error\"')\n\n    at Proxy.textContent (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:254:26)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:15:58\n\n13 |   await page.locator('[data-test=\"password\"]').fill('secret_sauce');\n  14 |   await page.locator('[data-test=\"login-button\"]').click();\n> 15 |   let errorMsg = await page.locator('data-test=\"error\"').textContent();\n     |                                                          ^\n  16 |   console.log(errorMsg);\n  17 | });\n  18 | }\n\nError: browserContext.close: Target page, context or browser has been closed",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T06:22:42.528Z",
+      "endTime": "2026-09-10T06:23:11.140Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › Login Test 1",
+      "status": "FAILED",
+      "failureReason": "After Hooks › Fixture \"context\" › Close context: Error: browserContext.close: Target page, context or browser has been closed\n\nError: locator.textContent: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('data-test=\"error\"')\n\n    at Proxy.textContent (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:254:26)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:15:58\n\n13 |   await page.locator('[data-test=\"password\"]').fill('secret_sauce');\n  14 |   await page.locator('[data-test=\"login-button\"]').click();\n> 15 |   let errorMsg = await page.locator('data-test=\"error\"').textContent();\n     |                                                          ^\n  16 |   console.log(errorMsg);\n  17 | });\n  18 | }\n\nError: browserContext.close: Target page, context or browser has been closed",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T06:22:42.562Z",
+      "endTime": "2026-09-10T06:23:10.986Z",
+      "executionMachine": "Shree",
+      "testdataSteps": []
+    }
+  ]
+}

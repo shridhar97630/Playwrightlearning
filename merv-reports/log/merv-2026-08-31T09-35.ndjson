@@ -1,0 +1,36 @@
+{"ts":"2026-08-31T09:38:36.734Z","level":"INFO","name":"Merv","msg":"<----- File javascript/add_Function.js ----->"}
+{"ts":"2026-08-31T09:38:36.746Z","level":"INFO","name":"Merv","msg":"--- execution ---"}
+{"ts":"2026-08-31T09:38:36.756Z","level":"INFO","name":"Merv","msg":"PromptSync = [Function create]"}
+{"ts":"2026-08-31T09:38:36.760Z","level":"INFO","name":"Merv","msg":"call PromptSync(…)"}
+{"ts":"2026-08-31T09:38:36.764Z","level":"INFO","name":"Merv","msg":"call PromptSync(…) → [Function prompt]"}
+{"ts":"2026-08-31T09:38:36.769Z","level":"INFO","name":"Merv","msg":"prompt = [Function prompt]"}
+{"ts":"2026-08-31T09:38:36.773Z","level":"INFO","name":"Merv","msg":"function Division defined"}
+{"ts":"2026-08-31T09:38:36.778Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-08-31T09:38:42.691Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 2"}
+{"ts":"2026-08-31T09:38:42.696Z","level":"INFO","name":"Merv","msg":"a = 2"}
+{"ts":"2026-08-31T09:38:42.701Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-08-31T09:38:42.768Z","level":"INFO","name":"Merv","msg":"call prompt(…) → "}
+{"ts":"2026-08-31T09:38:42.774Z","level":"INFO","name":"Merv","msg":"b = "}
+{"ts":"2026-08-31T09:38:42.779Z","level":"INFO","name":"Merv","msg":"call Division(…)"}
+{"ts":"2026-08-31T09:38:42.787Z","level":"INFO","name":"Merv","msg":"⟶ enter function Division"}
+{"ts":"2026-08-31T09:38:42.792Z","level":"INFO","name":"Merv","msg":"call Division(…) → null"}
+{"ts":"2026-08-31T09:38:42.798Z","level":"INFO","name":"Merv","msg":"c = null"}
+{"ts":"2026-08-31T09:38:42.806Z","level":"INFO","name":"Merv","msg":"console.log: div = null"}
+{"ts":"2026-08-31T09:38:51.562Z","level":"INFO","name":"Merv","msg":"<----- File javascript/add_Function.js ----->"}
+{"ts":"2026-08-31T09:38:51.567Z","level":"INFO","name":"Merv","msg":"--- execution ---"}
+{"ts":"2026-08-31T09:38:51.578Z","level":"INFO","name":"Merv","msg":"PromptSync = [Function create]"}
+{"ts":"2026-08-31T09:38:51.583Z","level":"INFO","name":"Merv","msg":"call PromptSync(…)"}
+{"ts":"2026-08-31T09:38:51.588Z","level":"INFO","name":"Merv","msg":"call PromptSync(…) → [Function prompt]"}
+{"ts":"2026-08-31T09:38:51.593Z","level":"INFO","name":"Merv","msg":"prompt = [Function prompt]"}
+{"ts":"2026-08-31T09:38:51.597Z","level":"INFO","name":"Merv","msg":"function Division defined"}
+{"ts":"2026-08-31T09:38:51.604Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-08-31T09:38:53.513Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 2"}
+{"ts":"2026-08-31T09:38:53.678Z","level":"INFO","name":"Merv","msg":"a = 2"}
+{"ts":"2026-08-31T09:38:53.689Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-08-31T09:38:55.272Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 3"}
+{"ts":"2026-08-31T09:38:55.279Z","level":"INFO","name":"Merv","msg":"b = 3"}
+{"ts":"2026-08-31T09:38:55.286Z","level":"INFO","name":"Merv","msg":"call Division(…)"}
+{"ts":"2026-08-31T09:38:55.300Z","level":"INFO","name":"Merv","msg":"⟶ enter function Division"}
+{"ts":"2026-08-31T09:38:55.316Z","level":"INFO","name":"Merv","msg":"call Division(…) → 0.6666666666666666"}
+{"ts":"2026-08-31T09:38:55.324Z","level":"INFO","name":"Merv","msg":"c = 0.6666666666666666"}
+{"ts":"2026-08-31T09:38:55.338Z","level":"INFO","name":"Merv","msg":"console.log: div = 0.6666666666666666"}

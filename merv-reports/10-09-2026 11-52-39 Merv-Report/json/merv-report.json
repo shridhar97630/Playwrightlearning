@@ -1,0 +1,309 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1789021396292,
+  "exportDate": "Thu Sep 10 2026 11:53:16 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwrightlearning",
+    "startTime": "2026-09-10T06:22:39.832Z",
+    "endTime": "2026-09-10T06:23:16.292Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › example.spec.js › Login Test 2",
+        "status": "FAILED",
+        "failureReason": "After Hooks › Fixture \"context\" › Close context: Error: browserContext.close: Target page, context or browser has been closed\n\nError: locator.textContent: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('data-test=\"error\"')\n\n    at Proxy.textContent (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:254:26)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:15:58\n\n13 |   await page.locator('[data-test=\"password\"]').fill('secret_sauce');\n  14 |   await page.locator('[data-test=\"login-button\"]').click();\n> 15 |   let errorMsg = await page.locator('data-test=\"error\"').textContent();\n     |                                                          ^\n  16 |   console.log(errorMsg);\n  17 | });\n  18 | }\n\nError: browserContext.close: Target page, context or browser has been closed",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-10T06:22:42.528Z",
+        "endTime": "2026-09-10T06:23:11.140Z",
+        "executionMachine": "Shree",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:42.787Z",
+            "endTime": "2026-09-10T06:22:45.163Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:45.170Z",
+            "endTime": "2026-09-10T06:22:45.223Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:45.231Z",
+            "endTime": "2026-09-10T06:22:46.990Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:47.077Z",
+            "endTime": "2026-09-10T06:22:48.219Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-82b5dd82772c25b0733d-step11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-credentials\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:48.930Z",
+            "endTime": "2026-09-10T06:22:49.181Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-82b5dd82772c25b0733d-step14-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-credentials\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:49.424Z",
+            "endTime": "2026-09-10T06:22:49.536Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-82b5dd82772c25b0733d-step17-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-credentials\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:49.921Z",
+            "endTime": "2026-09-10T06:22:49.993Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-82b5dd82772c25b0733d-step20-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:50.197Z",
+            "endTime": "2026-09-10T06:22:50.299Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-82b5dd82772c25b0733d-step23-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:50.479Z",
+            "endTime": "2026-09-10T06:22:50.545Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-82b5dd82772c25b0733d-step26-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:50.761Z",
+            "endTime": "2026-09-10T06:22:50.943Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-82b5dd82772c25b0733d-step29-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:51.170Z",
+            "endTime": "2026-09-10T06:22:51.290Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-82b5dd82772c25b0733d-step32-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:51.462Z",
+            "endTime": "2026-09-10T06:22:51.769Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-82b5dd82772c25b0733d-step35-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "FAILED",
+            "startTime": "2026-09-10T06:23:13.539Z",
+            "endTime": "2026-09-10T06:23:13.542Z",
+            "errorMessage": "Error: browserContext.close: Target page, context or browser has been closed",
+            "screenshots": []
+          }
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › Login Test 1",
+        "status": "FAILED",
+        "failureReason": "After Hooks › Fixture \"context\" › Close context: Error: browserContext.close: Target page, context or browser has been closed\n\nError: locator.textContent: Target page, context or browser has been closed\nCall log:\n  - waiting for locator('data-test=\"error\"')\n\n    at Proxy.textContent (C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.cjs:254:26)\n    at C:\\Users\\hp\\OneDrive\\Desktop\\Playwrightlearning\\tests\\example.spec.js:15:58\n\n13 |   await page.locator('[data-test=\"password\"]').fill('secret_sauce');\n  14 |   await page.locator('[data-test=\"login-button\"]').click();\n> 15 |   let errorMsg = await page.locator('data-test=\"error\"').textContent();\n     |                                                          ^\n  16 |   console.log(errorMsg);\n  17 | });\n  18 | }\n\nError: browserContext.close: Target page, context or browser has been closed",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-10T06:22:42.562Z",
+        "endTime": "2026-09-10T06:23:10.986Z",
+        "executionMachine": "Shree",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:42.805Z",
+            "endTime": "2026-09-10T06:22:45.169Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:45.178Z",
+            "endTime": "2026-09-10T06:22:45.224Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:45.231Z",
+            "endTime": "2026-09-10T06:22:46.994Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:47.086Z",
+            "endTime": "2026-09-10T06:22:48.205Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a01ff73c8684f5cf03b7-step11-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-credentials\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:48.966Z",
+            "endTime": "2026-09-10T06:22:49.171Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a01ff73c8684f5cf03b7-step14-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-credentials\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:49.406Z",
+            "endTime": "2026-09-10T06:22:49.472Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a01ff73c8684f5cf03b7-step17-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-credentials\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:49.819Z",
+            "endTime": "2026-09-10T06:22:49.947Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a01ff73c8684f5cf03b7-step20-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:50.121Z",
+            "endTime": "2026-09-10T06:22:50.251Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a01ff73c8684f5cf03b7-step23-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"standard_user\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:50.438Z",
+            "endTime": "2026-09-10T06:22:50.547Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a01ff73c8684f5cf03b7-step26-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:50.696Z",
+            "endTime": "2026-09-10T06:22:50.784Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a01ff73c8684f5cf03b7-step29-0.png"
+            ]
+          },
+          {
+            "teststepName": "Fill \"secret_sauce\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:51.002Z",
+            "endTime": "2026-09-10T06:22:51.083Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a01ff73c8684f5cf03b7-step32-0.png"
+            ]
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T06:22:51.289Z",
+            "endTime": "2026-09-10T06:22:51.737Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a01ff73c8684f5cf03b7-step35-0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "FAILED",
+            "startTime": "2026-09-10T06:23:13.361Z",
+            "endTime": "2026-09-10T06:23:13.364Z",
+            "errorMessage": "Error: browserContext.close: Target page, context or browser has been closed",
+            "screenshots": []
+          }
+        ]
+      }
+    ]
+  }
+}

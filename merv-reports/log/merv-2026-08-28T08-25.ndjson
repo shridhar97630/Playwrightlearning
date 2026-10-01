@@ -1,0 +1,9 @@
+{"ts":"2026-08-28T08:25:22.171Z","level":"INFO","name":"Merv","msg":"<----- File inputdemo.js ----->"}
+{"ts":"2026-08-28T08:25:22.182Z","level":"INFO","name":"Merv","msg":"--- execution ---"}
+{"ts":"2026-08-28T08:25:22.188Z","level":"INFO","name":"Merv","msg":"call PromptSync(…)"}
+{"ts":"2026-08-28T08:25:22.196Z","level":"INFO","name":"Merv","msg":"call PromptSync(…) → [Function prompt]"}
+{"ts":"2026-08-28T08:25:22.202Z","level":"INFO","name":"Merv","msg":"prompt = [Function prompt]"}
+{"ts":"2026-08-28T08:25:22.207Z","level":"INFO","name":"Merv","msg":"call prompt(…)"}
+{"ts":"2026-08-28T08:25:28.249Z","level":"INFO","name":"Merv","msg":"call prompt(…) → 20"}
+{"ts":"2026-08-28T08:25:28.254Z","level":"INFO","name":"Merv","msg":"a = 20"}
+{"ts":"2026-08-28T08:25:28.261Z","level":"INFO","name":"Merv","msg":"console.log: You selected : 20"}
